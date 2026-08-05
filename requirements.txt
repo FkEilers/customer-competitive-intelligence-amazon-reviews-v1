@@ -1,0 +1,14 @@
+pandas
+numpy
+datasets
+groq
+openai
+pydantic
+python-dotenv
+jupyter
+matplotlib
+langdetect
+sqlalchemy
+pymysql
+scipy
+scikit-learn

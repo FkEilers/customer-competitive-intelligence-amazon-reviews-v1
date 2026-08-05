@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Large data files (document download steps in README instead)
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# Internal working docs — not for public audience
+reports/project_docs/
+reports/deliverables/
