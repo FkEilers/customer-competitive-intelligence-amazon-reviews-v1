@@ -26,7 +26,7 @@ premium ANC over-ear headphone line as sold on Amazon — not the brand as a who
 
 ## Dashboard
 
-🔗 **[Explore the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/fkeilers/viz/PremiumAudioDashboardFinalPresentation/00_Dashboard_Final_Presentation)** <!-- ⚠️ PENDING: update this URL once the Tableau workbook is renamed to match the V1 project name -->
+🔗 **[Explore the interactive dashboard on Tableau Public](https://public.tableau.com/app/profile/fkeilers/viz/Customer_Competitive_Intelligence_Amazon_Reviews_V1/00_Dashboard_Customer_Competitive_Intelligence_Amazon_Reviews_V1)**
 *(opens in this same tab — use Cmd/Ctrl+click to open it in a new one)*
 
 ![dashboard preview](dashboard/dashboard_preview.png)
