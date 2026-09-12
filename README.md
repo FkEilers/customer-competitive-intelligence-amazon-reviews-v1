@@ -5,6 +5,9 @@
 > Case study developed during the Data Analytics & AI program, WBS Coding School — now the foundation of a reusable decision-intelligence system.
 > **V1** — see [Limitations & next steps](#limitations--next-steps) for what V2 will include.
 
+📊 **[View the live dashboard →](https://public.tableau.com/app/profile/fkeilers/viz/Customer_Competitive_Intelligence_Amazon_Reviews_V1/00_Dashboard_Customer_Competitive_Intelligence_Amazon_Reviews_V1)**
+📄 **[Read the case study →](docs/case-study.md)**
+
 ## What this repository is — and isn't
 
 This repository shows how I approach a problem: sourcing and understanding real-world data with rigor, before building anything on top of it. It is **not** a full code walkthrough of the analysis engine.
@@ -12,6 +15,25 @@ This repository shows how I approach a problem: sourcing and understanding real-
 The AI pipeline, the model-validation protocol, the statistical significance testing, and the dashboard-preparation logic are part of a reusable system I designed to turn large volumes of customer reviews into competitive intelligence — for this case, and adaptable to others. That system is the product, not the demonstration, so its code lives outside this public repository.
 
 What you'll find here instead: the data-foundation work (`00`, `01`), the SQL used to clean and structure it, and a full account — in writing — of the methodology, the findings, and the rigor behind the rest of the system. If you want to see the system in action, the [live dashboard](#dashboard) is public. If you want to discuss applying it to your own data, [reach out](#author).
+
+## Roadmap — What's Next
+
+This project is versioned deliberately (V1, with V2 already scoped) because it's treated
+as a living system rather than a closed academic deliverable. Two improvements are
+already prioritized for the next iteration:
+
+- **Schema-based safety detection.** V1's critical-alert detector is keyword-based —
+  effective enough to catch real issues (see case study), but with a blind spot it can't
+  measure: a genuine safety concern worded outside the keyword list wouldn't be flagged.
+  V2 replaces this with a field evaluated by the AI model on every review during normal
+  analysis, closing that specific gap.
+- **Dashboard restructuring.** The current dashboard packs nine visualizations into a
+  single scrolling view. It holds up under real scrutiny, but doesn't meet the
+  "understand it in five seconds" bar that a public-facing dashboard should. V2 splits it
+  into a Summary view and a Full Detail view.
+
+Neither of these changes the underlying methodology — the validation rigor described in
+the case study carries forward unchanged.
 
 ## The business question
 
